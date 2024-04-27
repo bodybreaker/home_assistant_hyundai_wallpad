@@ -1,0 +1,13 @@
+name: "Hyundai_wallpad"
+description: "월패드 테스트"
+version: "1.0.0"
+slug: "wallpad_test"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+map:
+  - share:rw # 홈어시스턴트 share 경로가 도커 컨테이너 내 /share 와 매핑됨
