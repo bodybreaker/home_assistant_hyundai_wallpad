@@ -21,4 +21,4 @@ RUN \
 # # Copy root file system
 COPY rootfs /
 
-CMD [ "/run.sh" ]
+CMD [ "/test.sh" ]
