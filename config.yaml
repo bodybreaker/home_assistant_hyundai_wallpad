@@ -1,6 +1,6 @@
 name: "Hyundai_wallpad"
 description: "월패드 테스트"
-version: "1.0.1"
+version: "1.0.0"
 slug: "wallpad_test"
 init: true
 arch:
