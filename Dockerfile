@@ -20,5 +20,6 @@ RUN \
 
 # # Copy root file system
 COPY rootfs /
+RUN chmod a+x /run.sh
 
-CMD [ "/test.sh" ]
+CMD [ "/run.sh" ]
