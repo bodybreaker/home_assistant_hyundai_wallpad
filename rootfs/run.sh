@@ -20,4 +20,4 @@ echo "$PR CREATED $SHARE_DIR"
 # fi
 
 echo "[Info] Run $NAME"
-python3 /src/run.py
+python /src/run.py
