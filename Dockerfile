@@ -16,7 +16,7 @@ RUN \
     \
     && python3 --version \
     && pip3 --version \
-    && pip install pyserial paho-mqtt 
+    && pip install pyserial paho-mqtt PyYAML
 
 # # Copy root file system
 COPY rootfs /
