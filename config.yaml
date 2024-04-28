@@ -1,7 +1,7 @@
-name: "Hyundai_wallpad"
+name: "Hyundai_wallpad Addon"
 description: "현대 월패드 애드온"
 version: "1.0.2"
-slug: "Hyundai Wallpad"
+slug: "Hyundai Wallpad Addon"
 init: false
 arch:
   - aarch64
