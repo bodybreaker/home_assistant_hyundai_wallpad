@@ -1,0 +1,137 @@
+light:
+  living_light1:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 11 01 00 B6 EE"
+      - "F7 0B 01 19 04 40 11 01 01 B1 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 11 02 00 B5 EE"
+      - "F7 0B 01 19 04 40 11 02 02 B1 EE"
+  living_light2:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 12 01 00 B5 EE"
+      - "F7 0B 01 19 04 40 12 01 01 B2 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 12 02 00 B6 EE"
+      - "F7 0B 01 19 04 40 12 02 02 B2 EE"
+  living_light3:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 13 01 00 B4 EE"
+      - "F7 0B 01 19 04 40 13 01 01 B3 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 13 02 00 B7 EE"
+      - "F7 0B 01 19 04 40 13 02 02 B3 EE"
+  bedroom_light1:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 21 01 00 86 EE"
+      - "F7 0B 01 19 04 40 21 01 01 81 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 21 02 00 85 EE"
+      - "F7 0B 01 19 04 40 21 02 02 81 EE"
+  bedroom_light2:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 22 01 00 85 EE"
+      - "F7 0B 01 19 04 40 22 01 01 82 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 22 02 00 86 EE"
+      - "F7 0B 01 19 04 40 22 02 02 82 EE"
+  bedroom_light3:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 23 01 00 84 EE"
+      - "F7 0B 01 19 04 40 23 01 01 83 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 23 02 00 87 EE"
+      - "F7 0B 01 19 04 40 23 02 02 83 EE"
+  campingroom_light:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 51 01 00 F6 EE"
+      - "F7 0B 01 19 04 40 51 01 01 F1 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 51 02 00 F5 EE"
+      - "F7 0B 01 19 04 40 51 02 02 F1 EE"
+  exroom_light:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 41 01 00 E6 EE"
+      - "F7 0B 01 19 04 40 41 01 01 E1 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 41 02 00 E5 EE"
+      - "F7 0B 01 19 04 40 41 02 02 E1 EE"
+  kitchen_light1:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 61 01 00 C6 EE"
+      - "F7 0B 01 19 04 40 61 01 01 C1 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 61 02 00 C5 EE"
+      - "F7 0B 01 19 04 40 61 02 02 C1 EE"
+  kitchen_light2:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 62 01 00 C5 EE"
+      - "F7 0B 01 19 04 40 62 01 01 C2 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 62 02 00 C6 EE"
+      - "F7 0B 01 19 04 40 62 02 02 C2 EE"
+  table_light:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 63 01 00 C4 EE"
+      - "F7 0B 01 19 04 40 63 01 01 C3 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 63 02 00 C7 EE"
+      - "F7 0B 01 19 04 40 63 02 02 C3 EE"
+  hall_light:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 64 01 00 C3 EE"
+      - "F7 0B 01 19 04 40 64 01 01 C4 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 64 02 00 C0 EE"
+      - "F7 0B 01 19 04 40 64 02 02 C4 EE"
+  office_light:
+    dev_name: "wallpad"
+    component_type: "light"
+    turn_on:
+      - "F7 0B 01 19 02 40 31 01 00 96 EE"
+      - "F7 0B 01 19 04 40 31 01 01 91 EE"
+    turn_off:
+      - "F7 0B 01 19 02 40 31 02 00 95 EE"
+      - "F7 0B 01 19 04 40 31 02 02 91 EE"
+elevator:
+  call:
+    dev_name: "elevator"
+    component_type: "button"
+    press:
+      - "F7 0B 01 34 02 41 10 06 00 9C EE"
+      - "F7 0B 01 34 04 41 10 06 06 9C EE"
+  status_sensor:
+    dev_name: "elevator"
+    component_type: "sensor"
+  floor_sensor:
+    dev_name: "elevator"
+    component_type: "sensor"
+  updown_sensor:
+    dev_name: "elevator"
+    component_type: "sensor"
+
+
+
