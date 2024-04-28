@@ -76,10 +76,10 @@ def ew11_on_message(message):
         mqttClient.publish(state_topic_status,"도착")
     if ELEV_UP in message:
         mqttClient.publish(state_topic_updown,"상행")
-        mqttClient.publish(state_topic_floor,message.split(' ')[9])
+        mqttClient.publish(state_topic_floor,message.split(' ')[9].lstrip('0'))
     if ELEV_DOWN in message:
         mqttClient.publish(state_topic_updown,"하행")
-        mqttClient.publish(state_topic_floor,message.split(' ')[9])
+        mqttClient.publish(state_topic_floor,message.split(' ')[9].lstrip('0'))
         
 
 
