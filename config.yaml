@@ -1,6 +1,6 @@
 name: "Hyundai wallpad Addon"
 description: "현대 월패드 애드온"
-version: "0.1.0"
+version: "0.1.1"
 slug: "wallpad_addon"
 init: false
 arch:
