@@ -108,7 +108,7 @@ light:
       - "F7 0B 01 19 02 40 64 02 00 C0 EE"
       - "F7 0B 01 19 04 40 64 02 02 C4 EE"
   office_light:
-    dev_name: "wallpad"
+    dev_name: "wallpad_office"
     component_type: "light"
     turn_on:
       - "F7 0B 01 19 02 40 31 01 00 96 EE"
